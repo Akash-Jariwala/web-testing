@@ -95,7 +95,7 @@ exports.check = (async(req,res,next) => {
 
     let config = {
         launchOption: {
-            headless: false,
+            headless: true,
             args: ["--no-sandbox",'--disable-setuid-sandbox']
         }
     }
