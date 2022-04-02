@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node server-upload.js"
+    "test": "node server-upload.js",
+    "start": "node server-upload.js"
+    
   },
   "author": "",
   "license": "ISC",
