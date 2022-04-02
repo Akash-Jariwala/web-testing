@@ -19,7 +19,7 @@ const storage = multer.diskStorage({
     }
 });
 
-const upload = multer({ storage });
+const up = multer({ storage });
 const app = express();
 app.use(express.static('public'));
 
@@ -30,7 +30,7 @@ app.use(bodyparser.json());
 
 // ------ test ends -----
 
-app.post('/upload', upload.single('data'),send.check);
+app.post('/upload', up.single('data'),send.check);
 // app.post('/upload', upload.single('data'),(req,res) =>{
 //     return res.json({status: 'OK'});
 // })
