@@ -98,7 +98,7 @@ exports.check = (async(req,res,next) => {
             headless: true,
             args: ["--no-sandbox"]
         }
-    }
+    } 
 
     // //locators
     const loginPage = {
