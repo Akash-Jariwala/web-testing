@@ -95,7 +95,7 @@ exports.check = (async(req,res,next) => {
 
     let config = {
         launchOption: {
-            headless: true,
+            headless: false,
             args: ["--no-sandbox"]
         }
     } 
