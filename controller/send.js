@@ -104,7 +104,7 @@ exports.check = (async(req,res,next) => {
     const loginPage = {
         email: 'input[id="label-email"]',
         password: 'input[id="label-password"]',
-        loginButton: 'input[id="btnSignIn"]',
+        loginButton: 'input[id="btnSignIn"]', 
     }
 
     // await myFun(data,config,loginPage);
