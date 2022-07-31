@@ -1,0 +1,3 @@
+User will have to maintain "uploads" in the same diractory. After processing data, final file will be stored in this folder.
+
+In order to follow non disclosure agreement, original files have been removed from here.
